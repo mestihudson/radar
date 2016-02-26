@@ -61,7 +61,7 @@ var radar_data = [
 			{"name":"Escrever Scripts de Testes Diretamente no Dbehave", "pc":{"r":65,"c":150},"movement":"c"},
 		    {"name":"Testes Automatizados com Firebug", "pc":{"r":35,"t":140},"movement":"t"},
 			{"name":"Jenkins", "pc":{"r":15,"t":140},"movement":"t"},
-		    {"name":"Gestão de Testes com RQM", "pc":{"r":60,"t":165},"movement":"t"},
+		    {"name":"Gestão de Testes com RQM", "pc":{"r":60,"t":165},"movement":"t", hide: true},
 		    {"name":"Uso do Sikuli quando Dbehave c/ Selenium são ineficazes", "pc":{"r":40,"t":160},"movement":"t"},
 		    {"name":"Soap UI WebService", "pc":{"r":30,"t":110},"movement":"t"},
 		    {"name":"Testes Automatizados em DW c/ TestDW", "pc":{"r":80,"t":125},"movement":"t"},
@@ -97,7 +97,7 @@ var radar_data = [
     { "quadrant": "Q3",
         "left": w-200+30,
         "top" : 18,
-        "color" : "#587486",
+        "color" : "blue",//#587486
         "items" : [
 
   { name: 'Não se aplica',    pc: { r: 150, t: 70 },    movement: 'c',    domain: 'mobile, front-end' },
@@ -117,7 +117,7 @@ var radar_data = [
     { "quadrant": "Q1",
         "left" :45,
          "top" : (h/2 + 18),
-        "color" : "#DC6F1D",
+        "color" : "green", //#DC6F1D
         "items" : [
 
             {"name":"Qualidade de Código c/ Sonar", "pc":{"r":130,"t":220},"movement":"t"},
@@ -132,7 +132,7 @@ var radar_data = [
         ]
     },
     { "quadrant": "Q4",
-        "color" : "#B70062",
+        "color" : "orange",//#B70062
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [
@@ -141,7 +141,7 @@ var radar_data = [
             { name: 'Teste de Acessibilidade-ASES', pc: { r: 150, t: 300 },              movement: 't'},
             {"name":"Testes de Acessibilidade", "pc":{r: 150, t: 335},"movement":"c"},
 
-			{ name: 'RxJS',              pc: { r: 260, t: 320 },              movement: 't', hide: true},
+			       { name: 'RxJS',              pc: { r: 260, t: 320 },              movement: 't', hide: true},
 
             { name: 'Testes Performance Hudson', pc: { r: 380, t: 320 },  movement: 't'	 , hide: true},
             {"name":"Testes Performance Jmeter", "pc":{"r":380,"t":330},"movement":"t", hide: true}
